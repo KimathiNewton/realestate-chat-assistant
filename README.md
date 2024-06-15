@@ -2,7 +2,7 @@
 This is an advanced AI-powered chatbot designed to serve as a personal house hunting assistant. It leverages the capabilities of OpenAI's language models to provide detailed and comprehensive responses to user queries by offering recommendations of houses in a certain development, to users based on their preferences. The chatbot supports multiple languages and integrates with Ikigai's APIs to fetch and process the latest information. It also includes semantic search functionality using Chroma to retrieve the most relevant documents and FAQs. It offers enhanced user interaction by offering accurate, context-aware, and helpful answers, making it a valuable tool for businesses looking to improve their customer support and engagement.
 
 ![Chesterfield](Images/Chest.jpg)
-![Wales](Images/wales.jpg.jpg)
+![Wales](Images/wales.jpg)
 
 
 ## Usage
