@@ -30,6 +30,6 @@ pip install -r requirements.txt
 ```
 To run the Application Script
 ```
-python Assets/app.py
+streamlit run app.py
 ```
 
