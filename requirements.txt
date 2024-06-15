@@ -1,0 +1,12 @@
+langchain==0.0.316
+openai==0.28.1
+tiktoken==0.4.0
+jq==1.4.1
+chromadb==0.4.3
+lark
+python-dotenv==1.0.0
+notebook==7.0.3
+streamlit==1.26.0
+unstructured==0.10.30
+wheel
+pysqlite-binary
