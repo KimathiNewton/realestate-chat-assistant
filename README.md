@@ -25,10 +25,11 @@ Linux & MacOs
 ```
 ### 3. Install Dependencies:
 Install the required Python packages within your virtual environment:
-'''
+```
 pip install -r requirements.txt
 ```
 To run the Application Script
+
 ```
 streamlit run app.py
 ```
