@@ -1,11 +1,25 @@
-# Realestate Chat Assistant
-This is an advanced AI-powered chatbot designed to serve as a personal house hunting assistant. It leverages the capabilities of OpenAI's language models to provide detailed and comprehensive responses to user queries by offering recommendations of houses in a certain development, to users based on their preferences. The chatbot supports multiple languages and integrates with Ikigai's APIs to fetch and process the latest information. It also includes semantic search functionality using Chroma to retrieve the most relevant documents and FAQs. It offers enhanced user interaction by offering accurate, context-aware, and helpful answers, making it a valuable tool for businesses looking to improve their customer support and engagement.
+# St. Modwen Home Specialist: LLM-Powered Recommendation System
+
+The St. Modwen Home Specialist is an LLM-powered recommendation engine designed to recommend homs in different development, based on the user's preferences. Leveraging state-of-the-art language models, semantic search, and vector database, the system processes data from various sources and provides detailed, context-rich recommendations based on user queries.
+
+
 
 ![Chesterfield](Images/Chest.jpg)
 ![Wales](Images/wales.jpg)
 
 
+## Features
+* LLM-Driven Recommendations: It Utilizes GPT-4 and GPT-3.5-turbo to interpret user queries, rephrase their queries and follow-ups, and generate detailed recommendations for homes.
+
+* Data Ingestion: Downloads and processes data (CSV, JSON, HTML) from remote sources using API endpoints. The system automatically converts CSV data to JSON format and preprocesses it for streamlined processing.
+
+* Semantic Search & FAQ Integration: Builds a vector databse using Chroma to create embeddings for both site content and FAQs to form the knowledge base, ensuring that similar queries are matched to the most relevant information.
+
+Interactive Chat Interface: Employs Streamlit to provide an interactive, chat-based user interface. The system maintains chat history by syncing with the remote Ikigai API, ensuring continuity in conversations.
+
+
 ## Usage
+
 ### 1. Clone this repository to your local machine.
 Start by cloning the GitHub repository containing the Telco Churn Analysis project and the predictive app. You can do this by running the following command in your terminal:
 ```
@@ -28,9 +42,16 @@ Install the required Python packages within your virtual environment:
 ```
 pip install -r requirements.txt
 ```
+### 4. Set up environment variables:
+Create a .env file in the root directory with the following content:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+
+```
 To run the Application Script
 
 ```
-streamlit run app.py
+python app.py
 ```
 
